@@ -9,6 +9,8 @@ int main()
     printf("This is a Basic Calculator\n");
     printf("It can do Addition, Subtraction, Multiplication, Division  of 2 Numbers\n");
     printf("To exist type q and then press enter\n");
+    
+    //The operator symbols
     printf("+ : Addition\n");
     printf("- : Subtraction\n");
     printf("x : Multiplication\n");
@@ -20,7 +22,7 @@ int main()
     
     value = 1;
     while (value == 1)
-    {   // Sorry for making you enter the operator first which is not what a normal calculator does i am still figuring this out :)
+    {   // Sorry for making you enter the operator first which is not what a normal calculator does I am still figuring this out :)
         printf("Enter the operator: ");
         scanf(" %c", &operator);
 
